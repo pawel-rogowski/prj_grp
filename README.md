@@ -1,6 +1,6 @@
 # Opis projektu.
 
-Celem projektu jest opracowanie programowalnego multiefektu gitarowego, łączącego analogowy tor sygnałowy z zaawansowanym cyfrowym przetwarzaniem dźwięku (DSP). System ma pełnić rolę wszechstronnego procesora audio, który w czasie rzeczywistym moduluje sygnał instrumentu, dając użytkownikowi dostęp do konfigurowalnych łańcuchów efektów i odciążając go z konieczności obsługi wielu fizycznych kostek analogowych.
+Celem projektu jest opracowanie programowalnego multiefektu gitarowego, łączącego analogowy tor sygnałowy z zaawansowanym cyfrowym przetwarzaniem dźwięku (DSP). System ma pełnić rolę wszechstronnego procesora audio, który w czasie rzeczywistynm moduluje sygnał instrumentu, dając użytkownikowi dostęp do konfigurowalnych łańcuchów efektów i odciążając go z konieczności obsługi wielu fizycznych kostek analogowych.
 
 Do pobierania i modyfikacji sygnału planowane jest wykorzystanie mikrokontrolera współpracującego z zewnętrznymi przetwornikami ADC/DAC po magistrali I2S oraz odpowiednio dopasowanego, analogowego preampu wejściowego. Narzędzie ma cyfryzować dźwięk instrumentu, aplikować wybrane algorytmy matematyczne (filtry, opóźnienia, modulacje) i interpretować polecenia sterujące przekazywane przez interfejs sceniczny w locie, zachowując minimalną latencję.
 
